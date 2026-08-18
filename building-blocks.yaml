@@ -1,0 +1,16 @@
+name : Building Blocks
+
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up 
+        run: echo "Hello, Word!"
+  echo-goodbye:
+      runs-on: Ubuntu-latest
+      steps:
+        - name: Echo Goodbye
+          run: echo "Goodbye, World!"
+
